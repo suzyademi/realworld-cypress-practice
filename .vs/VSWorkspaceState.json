@@ -5,7 +5,9 @@
     "\\cypress\\fixtures",
     "\\cypress\\support",
     "\\cypress\\tests",
+    "\\cypress\\tests\\Tamara",
     "\\data"
   ],
+  "SelectedNode": "\\cypress\\tests\\Tamara\\LoginTests.spec.ts",
   "PreviewInSolutionExplorer": false
 }

@@ -362,4 +362,11 @@ Cypress.Commands.add("loginByGoogleApi", () => {
       cy.visit("/");
     });
   });
+
+    Cypress.Commands.add('login', (username, password) => {
+        cy.visit('/signin'); //navigate to login page
+        cy.get('input[name="username"]').type(username); //enter username
+        cy.get('input[name="password"]').type(password); // enter pass
+        cy.contains('SIGN IN').click(); // click button to login
+    });
 });
